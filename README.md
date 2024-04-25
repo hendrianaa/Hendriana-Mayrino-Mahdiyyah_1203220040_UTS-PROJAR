@@ -123,7 +123,8 @@ Aplikasi ini adalah permainan sederhana dimana server akan mengirimkan kata warn
    - Jika jawaban benar, server akan menampilkan pesan "Klien [alamat_klien] menjawab dengan warna: [jawaban_klien]".
    - Jika jawaban salah, server akan menampilkan pesan "Klien [alamat_klien] menjawab dengan: [jawaban_klien]. Jawaban salah."
      
-     ![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/38e78ca4-239b-4a6e-a57f-7cec525b4ea3)
+     ![Screenshot 2024-04-25 231333](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/a3dc87ab-bc63-4b45-8bc3-97300d79e4d2)
+
 
 
 
@@ -144,7 +145,10 @@ Aplikasi ini adalah permainan sederhana dimana server akan mengirimkan kata warn
    - Client akan menerima feedback dari server mengenai jawaban yang telah diberikan.
    - Feedback tersebut akan ditampilkan kepada pengguna.
      
-![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/e3d9edf5-28b2-48d6-bbcb-b5c19ca7a5b2)
+     ![Screenshot 2024-04-25 225938](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/a5eef568-8c69-4568-8746-0c4a4a855c5d)
+
+     
+   
 
 
 
