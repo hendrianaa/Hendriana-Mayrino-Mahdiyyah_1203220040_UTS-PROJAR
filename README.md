@@ -96,3 +96,7 @@ Aplikasi ini adalah permainan sederhana dimana server akan mengirimkan kata warn
 ## Catatan
 - Pastikan untuk menjalankan server terlebih dahulu sebelum menjalankan klien.
 - Server harus dijalankan pada komputer yang sama dengan klien, atau IP server harus diubah sesuai dengan alamat IP server yang digunakan.
+
+## Cara Penggunaan
+![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/5c0d3ed5-9c27-4089-a915-7d32d2aa6f0f)
+
