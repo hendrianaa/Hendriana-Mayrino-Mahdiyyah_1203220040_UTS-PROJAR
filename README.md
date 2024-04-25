@@ -98,5 +98,53 @@ Aplikasi ini adalah permainan sederhana dimana server akan mengirimkan kata warn
 - Server harus dijalankan pada komputer yang sama dengan klien, atau IP server harus diubah sesuai dengan alamat IP server yang digunakan.
 
 ## Cara Penggunaan
-![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/5c0d3ed5-9c27-4089-a915-7d32d2aa6f0f)
+### Output Server:
+
+1. **Menunggu Koneksi dari Klien**
+   - Server akan menampilkan pesan "Menunggu koneksi dari klien..." saat pertama kali dijalankan.
+     ![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/5c0d3ed5-9c27-4089-a915-7d32d2aa6f0f)
+   
+2. **Koneksi Klien Diterima**
+   - Ketika klien terhubung, server akan menampilkan pesan "Klien terhubung dari [alamat_klien]".
+
+3. **Pemilihan Kata Warna**
+   - Setelah koneksi diterima, server akan memilih sebuah kata warna secara acak dari daftar kata warna dalam bahasa Inggris.
+
+4. **Kata Warna Dikirimkan ke Klien**
+   - Server akan menampilkan pesan "Warna en: [kata_warna_en] warna id [kata_warna_id]" yang menunjukkan kata warna dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia.
+   - Kata warna dalam bahasa Inggris dikirimkan kepada klien.
+    
+5. **Penerimaan Jawaban dari Klien**
+   - Server akan menunggu jawaban dari klien.
+   - Jika klien tidak merespons dalam waktu yang ditentukan, server akan menampilkan pesan "Waktu habis. Klien [alamat_klien] tidak merespons."
+   
+6. **Feedback untuk Jawaban Klien**
+   - Jika klien merespons, server akan memeriksa jawaban tersebut.
+   - Jika jawaban benar, server akan menampilkan pesan "Klien [alamat_klien] menjawab dengan warna: [jawaban_klien]".
+   - Jika jawaban salah, server akan menampilkan pesan "Klien [alamat_klien] menjawab dengan: [jawaban_klien]. Jawaban salah."
+     
+     ![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/38e78ca4-239b-4a6e-a57f-7cec525b4ea3)
+
+
+
+### Output Client:
+
+1. **Permintaan Koneksi ke Server**
+   - Saat pertama kali dijalankan, client akan mengirimkan permintaan koneksi ke server dengan pesan "Connect".
+
+2. **Menerima Kata Warna dari Server**
+   - Setelah terhubung, client akan menerima kata warna dalam bahasa Inggris dari server.
+   - Kata warna tersebut akan ditampilkan kepada pengguna.
+
+3. **Input Jawaban dari Pengguna**
+   - Pengguna diminta untuk memasukkan kata warna yang sesuai dalam bahasa Indonesia.
+   - Jawaban tersebut akan dikirimkan kembali ke server untuk diverifikasi.
+
+4. **Feedback dari Server**
+   - Client akan menerima feedback dari server mengenai jawaban yang telah diberikan.
+   - Feedback tersebut akan ditampilkan kepada pengguna.
+     
+![image](https://github.com/hendrianaa/Hendriana-Mayrino-Mahdiyyah_1203220040_UTS-PROJAR/assets/162070830/e3d9edf5-28b2-48d6-bbcb-b5c19ca7a5b2)
+
+
 
